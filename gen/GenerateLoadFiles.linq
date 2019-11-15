@@ -76,7 +76,7 @@ foreach (var e in
 
     var xml =
         new XElement("Query",
-            new XAttribute("Kind", "Expression"),
+            new XAttribute("Kind", "Statements"),
             new XElement("NuGetReference", new XAttribute("Version", e.Version), "morelinq"),
             new XElement("Namespace", "MoreEnumerable = MoreLinq.MoreEnumerable"),
             from imp in imports

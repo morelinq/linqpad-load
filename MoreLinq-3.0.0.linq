@@ -1,4 +1,4 @@
-<Query Kind="Expression">
+<Query Kind="Statements">
   <NuGetReference Version="3.0.0">morelinq</NuGetReference>
   <Namespace>MoreEnumerable = MoreLinq.MoreEnumerable</Namespace>
   <Namespace>static MoreLinq.Extensions.AcquireExtension</Namespace>
