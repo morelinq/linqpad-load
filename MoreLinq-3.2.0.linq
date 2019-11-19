@@ -2,6 +2,7 @@
   <NuGetReference Version="3.2.0">morelinq</NuGetReference>
   <Namespace>MoreEnumerable = MoreLinq.MoreEnumerable</Namespace>
   <Namespace>static MoreLinq.Extensions.AcquireExtension</Namespace>
+  <Namespace>static MoreLinq.Extensions.AggregateExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.AggregateRightExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.AssertCountExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.AssertExtension</Namespace>
@@ -75,6 +76,7 @@
   <Namespace>static MoreLinq.Extensions.ToArrayByIndexExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.ToDataTableExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.ToDelimitedStringExtension</Namespace>
+  <Namespace>static MoreLinq.Extensions.ToDictionaryExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.TraceExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.TransposeExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.WindowExtension</Namespace>

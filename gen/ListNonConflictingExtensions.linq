@@ -39,6 +39,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+from xs in new[]
+{
+    from e in new[]
+    {
+        "AggregateExtension",
+        nameof(MoreLinq.Extensions.ToDictionaryExtension),
+    }
+    select string.Join(".", nameof(MoreLinq), nameof(MoreLinq.Extensions), e)
+}
+select xs.ToHashSet() into xs
 from t in typeof(MoreLinq.MoreEnumerable).Assembly.GetExportedTypes()
 where t.Namespace == nameof(MoreLinq) + "." + nameof(MoreLinq.Extensions)
 join m in
@@ -54,9 +64,11 @@ on t.Name[..^"Extension".Length] equals m into j
 select new
 {
     MoreLinqExtension = t.FullName,
-    SystemLinqExtension = j.SingleOrDefault()
+    SystemLinqExtension = j.SingleOrDefault(),
+    Excepted = xs.Contains(t.FullName),
 }
 into e
-where e.SystemLinqExtension == null
+where e.Excepted
+   || e.SystemLinqExtension == null
 orderby e.MoreLinqExtension
 select e.MoreLinqExtension

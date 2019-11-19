@@ -73,6 +73,7 @@
   <Namespace>static MoreLinq.Extensions.ToArrayByIndexExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.ToDataTableExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.ToDelimitedStringExtension</Namespace>
+  <Namespace>static MoreLinq.Extensions.ToDictionaryExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.TraceExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.TransposeExtension</Namespace>
   <Namespace>static MoreLinq.Extensions.WindowExtension</Namespace>
