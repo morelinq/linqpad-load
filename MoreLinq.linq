@@ -1,6 +1,7 @@
 <Query Kind="Statements">
   <NuGetReference Version="3.3.2">morelinq</NuGetReference>
 </Query>
+
 // This file is designed to be hash-loaded (#load) into another using the
 // [referencing][1] feature added in LINQPad 6. Doing so will add a reference
 // to the MoreLINQ package to the loading query as well as import all extensions
