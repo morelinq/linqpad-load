@@ -8,7 +8,7 @@
 //
 // [1]: https://www.linqpad.net/LinqReference.aspx
 
-// The following query generates the list of static imports from MoreLINQ
+// The following query generates the list of using static imports from MoreLINQ
 // where the extension does not have an identially named extension method
 // on System.Linq.Enumerable.
 //
