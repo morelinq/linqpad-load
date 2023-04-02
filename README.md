@@ -17,10 +17,10 @@ adding the following line at the top:
 
 `MoreLinq.linq` will always reference the latest version. However, there are
 files for different versions if you wish to use or pin to a specific one.
-For example, to use [version 3.2.0][v.3.2.0], you would instead load the
+For example, to use [version 3.4.2][v.3.4.2], you would instead load the
 corresponding query file:
 
-    #load "MoreLINQ\load\MoreLinq-3.2.0.linq"
+    #load "MoreLINQ\load\MoreLinq-3.4.2.linq"
 
 Starting with [version 3][v3.x], extensions are imported in a non-conflicting
 manner using [static imports]. For background and details on this, see the
@@ -30,6 +30,6 @@ manner using [static imports]. For background and details on this, see the
 [LINQPad]: https://www.linqpad.net/
 [linqref]: https://www.linqpad.net/LinqReference.aspx
 [v3.x]: https://github.com/morelinq/MoreLINQ/releases/tag/v3.0.0
-[v3.2.0]: https://www.nuget.org/packages/morelinq/3.2.0
+[v3.4.2]: https://www.nuget.org/packages/morelinq/3.4.2
 [usage]: https://github.com/morelinq/MoreLINQ/tree/v3.2.0#usage
 [static imports]: https://docs.microsoft.com/en-us/dotnet/articles/csharp/whats-new/csharp-6#using-static
